@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(209, 192, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: center;
+}
+
+main{
+    border: 3px dotted;
+    padding: 1rem;
+}
+
+pre{
+    line-height: 2;
+    color: red;
+    font-size: 15px;
+
+}
+
+strong{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns .btn{
+    position: relative;
+    background-color: white;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 0px;
+    transition: 0.7s ease-in-out;
+
+}
+
+.btns .btn:hover{
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid blueviolet;
+}
