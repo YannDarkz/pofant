@@ -41,7 +41,13 @@ strong{
 
 }
 
-.btns .btn:hover{
+.btns .btn.sim:hover{
+    cursor: pointer;
+    background-color: rgb(51, 163, 7);
+    border: 2px solid blueviolet;
+}
+
+.btns .btn.nao:hover{
     cursor: pointer;
     background-color: red;
     border: 2px solid blueviolet;

@@ -7,7 +7,16 @@ let numeroCliques = 0;
 btnSim.addEventListener('click', () => {
 
     
-        window.open('https://www.youtube.com/watch?v=_pCZM9ymDSI&ab_channel=GabrielMansano', '_blank');
+    let audio = document.getElementById("meuAudio");
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      // Se o áudio estiver tocando, pause
+      audio.pause();
+      // Reinicie o áudio para que ele comece do início na próxima reprodução
+      audio.currentTime = 0;
+    }
    
 })
 
